@@ -156,11 +156,6 @@ h1{
         }
         .project-container{
             max-width: 250px;
-        } 
-        #iframe{
-            width: 200px;
-            height: 200px;
-            
         }
 }
 #about{
@@ -173,6 +168,7 @@ color: black;
 .szoveg{
     max-width: 800px;
     margin: auto;
+    padding: 10px;
 
 }
 #work{
@@ -200,6 +196,7 @@ color: black;
     border-radius: 10px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
+
 #alcim{
     display: flex;
     justify-content: center;
@@ -260,10 +257,9 @@ color: white;
 }
 iframe{
     background: #333;
-    padding: 20px;
     border-radius: 10px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 .scroll-arrow {
     position: fixed;
