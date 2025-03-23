@@ -31,6 +31,10 @@ width: 20px;
 padding: 5px;
 border: solid 1px black;
 }
+#logo:hover{
+background-color: #6E675F;
+transition: 0.4s;
+}
 .felsorolas{
     display: flex;
     padding-left: 0px;
@@ -48,7 +52,6 @@ border: solid 1px black;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(24,222,131);
 background: linear-gradient(0deg, rgba(191, 196, 171) 0%, rgb(150, 157, 137,1) 100%);
 color: black;
 }
@@ -79,7 +82,7 @@ padding-right: 5px;
 }
 .btn:hover{
     background-color: #423E37;
-    transition: 0.2s;
+    transition: 0.4s;
 }
 .gombok{
 margin-top: 20rem;
@@ -99,7 +102,7 @@ b{
 }
 b:hover{
         color: #423E37;
-        transition: 1s;
+        transition: 0.4s;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #keptarto{
@@ -283,7 +286,7 @@ iframe{
     font-weight: bold;
   }
   #scroll-text:hover {
-    color: lightgreen;
+    color: rgb(188, 188, 188);
   }
   #adatbevitel input[type="text"]{
     max-width: 135px;
