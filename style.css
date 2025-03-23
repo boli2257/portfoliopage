@@ -1,0 +1,298 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #2d2d2d;
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+}
+nav{
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    background-color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#logo{
+    cursor: pointer;
+background: #0a76f1;
+color: whitesmoke;
+margin: auto 0px auto 0px;
+border-radius: 50%;
+height: 20px;
+width: 20px;
+padding: 5px;
+border: solid 1px black;
+}
+.felsorolas{
+    display: flex;
+    padding-left: 0px;
+}
+.navigacio{
+    list-style: none;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#hatter{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(24,222,131);
+background: linear-gradient(0deg, rgba(24,222,131,1) 0%, rgba(33,120,115,1) 100%);
+}
+
+#bal{
+    border-right: 2px solid lightseagreen;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#kozepso{
+padding-left: 5px;
+padding-right: 5px;
+}
+#jobb{
+    border-left: 2px solid lightseagreen;
+    padding-left: 5px;
+}
+#kep{
+    border-radius: 50%;
+    height: 200px;
+
+}
+.btn{
+    background-color: #02606d;
+    color: #fff;
+    padding: 15px;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: #05b2c9;
+    color: #000000;
+    transition: 0.2s;
+}
+.gombok{
+margin-top: 20rem;
+}
+blockquote{
+    border-left: 2px solid lightseagreen;
+    height: 50px;
+    padding: 5px;
+        width: 150px;
+    display: flex;
+    margin: auto;
+}
+b{
+    color: #0272ce;
+    padding: 5px;
+    border-radius: 10px;
+}
+b:hover{
+        color: #014a86;
+        transition: 1s;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#keptarto{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+#egesz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.megegy{
+    display: flex;
+    height: 30%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+}
+#nev{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+}
+.motto{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+@media screen and (max-width:767px) {
+    blockquote{
+        margin: 20px;
+    }
+    h1{
+        font-size: larger;
+    }
+    .gombok{
+        margin-top: 10rem;
+        }
+        .project-img img{
+            max-width: 250px;
+        }
+        .project-container{
+            max-width: 250px;
+        } 
+        #iframe{
+            width: 200px;
+            height: 200px;
+        }
+}
+#about{
+    background: rgb(33,120,115);
+background: linear-gradient(0deg, rgba(33,120,115,1) 0%, rgba(24,222,131,1) 90%);
+
+}
+#rolamcim{
+    margin-top: 0;
+}
+.szoveg{
+    max-width: 800px;
+    margin: auto;
+
+}
+#work{
+    color: white;
+    background: rgb(24,222,131);
+    background: linear-gradient(0deg, rgba(24,222,131,1) 0%, rgba(33,120,115,1) 95%);
+    border-bottom: 30px solid rgb(24,222,131);
+}
+#munkaimcimsor{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    margin-top: 0px;
+}
+.project-img img{
+    width: 720px;
+    border-radius: 10px;
+}
+.project-container{
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    height: fit-content;
+    width: 720px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+#alcim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+hr{
+    border: 2px solid rgb(31, 103, 99);
+}
+#git{
+    color: white;
+   background-color: #02606d; 
+   padding: 10px;
+   font-weight: bold;
+   border-radius: 20px;
+}
+#git:hover{
+    background-color: #05b2c9;
+}
+#web{
+color: white;
+   background-color: #02606d; 
+   padding: 10px;
+   font-weight: bold;
+   border-radius: 20px;
+}
+#web:hover{
+    background-color: #05b2c9;
+}
+#contact{
+}
+#contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+#elerhetoseg{
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+}
+#adatbevitel{
+    background: #333;
+    padding: 30px;
+    border-radius: 10px;
+}
+#adatbevitel input{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+#adatbevitel input[type="submit"] {
+    background: rgb(0, 89, 255);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+iframe{
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+.scroll-arrow {
+    position: fixed;
+    left: 1465px;
+    bottom: 20px;
+    width: 36px;
+    height: 36px;
+    background: rgba(0, 0, 0, 0.741);
+    border-radius: 50% 0 50% 50%;
+    transform: rotate(-45deg);
+    z-index: 9;
+  }
+  #scroll-text{
+    color: white;
+    position: fixed;
+    left: 1466px; 
+    bottom: 26px;
+    font-size: 20px;
+    z-index: 10;
+    font-weight: bold;
+  }
+  #scroll-text:hover {
+    color: lightgreen;
+  }
+  #adatbevitel input[type="text"]{
+    width: 150px;
+    border: none;
+    padding: 10px;
+}
