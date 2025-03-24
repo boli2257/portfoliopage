@@ -258,13 +258,13 @@ color: white;
 iframe{
     background: #333;
     border-radius: 10px;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 .scroll-arrow {
     position: fixed;
-    left: 1465px;
-    bottom: 20px;
+    left: 85%;
+    bottom: 2%;
     width: 36px;
     height: 36px;
     background: rgba(0, 0, 0, 0.741);
@@ -275,8 +275,8 @@ iframe{
   #scroll-text{
     color: white;
     position: fixed;
-    left: 1466px; 
-    bottom: 26px;
+    left: 85%; 
+    bottom: 3%;
     font-size: 20px;
     z-index: 10;
     font-weight: bold;
